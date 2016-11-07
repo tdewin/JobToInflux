@@ -1,0 +1,1 @@
+﻿$jobs = get-vbrjob | ? { $_.jobtype -eq "Backup" }
